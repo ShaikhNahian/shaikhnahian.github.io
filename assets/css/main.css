@@ -2424,6 +2424,101 @@ input, select, textarea {
     text-decoration: underline;
 }
 
+/* Skills */
+.skill-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.65;
+    color: #666;
+}
+
+.skill-list li {
+    padding: 0.35em 0;
+}
+
+/* Experience two-column layout */
+.exp-row {
+    display: flex;
+    gap: 2.2rem;
+    align-items: flex-start;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.exp-left {
+    flex: 1 1 65%;
+	text-align: left !important;
+}
+
+.exp-right {
+    flex: 0 0 260px;
+    text-align: right;
+    padding-left: 1rem;
+	text-align: right !important;
+}
+
+/* Company name */
+.company {
+    margin: 0 0 0.6rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Roles and inline dates */
+.role {
+    margin-bottom: 0.3rem;
+}
+
+.role-title {
+    font-weight: 600;
+}
+
+.role-dates-inline {
+    margin-left: 0.5rem;
+    color: #0e98b3;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* Paragraph description */
+.exp-desc {
+    margin-top: 0.8rem;
+    line-height: 1.65;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Right side: dates and location */
+.exp-dates {
+    color: #0e98b3;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.exp-location {
+    color: #888;
+    font-size: 0.95rem;
+}
+
+.exp-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.65;
+    color: #666;
+}
+
+/* Responsive stacking */
+@media screen and (max-width: 980px) {
+    .exp-row {
+        display: block;
+    }
+    .exp-right {
+        text-align: left;
+        padding-left: 0;
+        margin-top: 0.6rem;
+    }
+}
+
 
 
 /* Small */
